@@ -2,8 +2,9 @@
   "name": "node-canvas-svg-test",
   "version": "1.0.0",
   "description": "Testing SVGs in node-canvas",
-  "main": "app.js",
-  "scripts": {},
+  "scripts": {
+    "start": "node app.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/matthewbillienyc/node-canvas-svg-test.git"

@@ -46,8 +46,8 @@ RUN set -x && \
     ln -s /usr/src/node/bin/npm /usr/local/bin/npm && \
     npm install npm@5.1.0 -g
 
-VOLUME ~/node-canvas-svg-test
-WORKDIR ~/node-canvas-svg-test
+VOLUME /node-canvas-svg-test
+WORKDIR /node-canvas-svg-test
 
 COPY package-lock.json package-lock.json
 COPY package.json package.json
