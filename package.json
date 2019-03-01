@@ -12,7 +12,7 @@
   "author": "Matthew Billie",
   "homepage": "https://github.com/matthewbillienyc/node-canvas-svg-test/README.md",
   "dependencies": {
-    "canvas": "^2.3.1"
+    "canvas": "2.1.0"
   },
   "devDependencies": {}
 }
